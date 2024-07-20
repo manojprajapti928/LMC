@@ -3,9 +3,11 @@ import "./NavBar.css"
 import { Link } from 'react-router-dom'
 
 export default function NavBar() {
+    
   return (
     <div id ="MainNav">
-        <h2>LMS</h2>
+        <img src="https://lh6.googleusercontent.com/proxy/4iKlBzGUXnokdmtXyTYQPXMZQDYcf1DlAnCSwre9Gq6TSrHb86kngArFEF9z45cOIFf3lrhflLmtHIc3g5IdgtRpxfyvrxcLkQOyRsBDH7xERAOQ" alt="" />
+      
         <ul>
             <li>
                 <Link to={"/"}>Home</Link>

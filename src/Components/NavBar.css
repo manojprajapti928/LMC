@@ -4,13 +4,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: rgb(236, 61, 61);
+    background-color: rgb(248, 245, 245);
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0px 5px 6px rgb(209, 55, 28);
+    box-shadow: 0px 5px 6px rgb(212, 208, 207);
     margin-bottom: 1.5rem;
-    border-radius: 18px;
+    border-radius: 1px;
 }
 
 #MainNav ul
@@ -40,8 +40,14 @@ a{
 #MainNav ul li:hover
 {
     padding: 0.5rem 1rem;
-    background-color: rgb(255, 5, 68);
+    background-color: rgb(87, 69, 148);
     color: white;
     border-radius: 30px;
 }
 
+img
+{
+    height: 2.5rem;
+    width: 5.5rem;
+    /* border-radius: 50%; */
+}

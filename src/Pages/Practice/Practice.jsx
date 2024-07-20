@@ -3,9 +3,9 @@ import "./Practice.css"
 import { Link } from 'react-router-dom'
 export default function Practice() {
   return (
-    <div>
+    <div className='PR'>
         <div id="PracticeNavBar">
-          <h2>Practice</h2>
+          <center><h2>Practice</h2></center>
 
           <ul>
             <li><Link to={"/Practice/Questions"}>Questions</Link></li>

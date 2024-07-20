@@ -1,11 +1,12 @@
 import React from "react";
+import {  GoogleGenerativeAI, HarmCategory, HarmBlockThreshold,} from "@google/generative-ai";
 import "./Questions.css";
 import Practice from "../Practice";
 import { useNavigate } from "react-router-dom";
-export default function Questions({ setSelectQuestion }) {
+export default function Questions({ setSelectQuestion}) {
   let Navigate = useNavigate();
-
-  let AllQuestions = [
+  
+ let AllQuestions = [
     {
       Question:
         "Write a Node.js program using if-else statements to check if a number is positive, negative, or zero.",
@@ -151,6 +152,8 @@ export default function Questions({ setSelectQuestion }) {
       Marks: 3,
     },
   ];
+
+
 
   function handleSolve(q) {
     setSelectQuestion(q);

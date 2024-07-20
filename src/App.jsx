@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // !-------------Components----------------
@@ -21,15 +21,24 @@ import ReactPage from './Pages/Practice/Quizes/ReactPage.jsx' // Corrected here
 
 import Editer from './Pages/Practice/Questions/Editer.jsx'
 
+// !---------------------------------------
+
+import Buy from './Components/Buy/Buy.jsx'
+
+
 export default function App() {
 
   //------------------------States--------------------------
 
 
-
+      
 //Qustion from Qustion page:--------------
 
 let [SelectQuestion, setSelectQuestion] = useState("Select a Question")
+
+
+
+
 
 
   	
@@ -44,7 +53,7 @@ let [SelectQuestion, setSelectQuestion] = useState("Select a Question")
         <Routes>
 
           <Route path="/" element={<Home />} />
-          <Route path="/Courses" element={<Courses />} />
+          <Route path="/Courses/*" element={<Courses />} />
           <Route path="/Practice" element={<Practice />} />
 
           <Route path="/Practice/Questions" element={<Questions setSelectQuestion = {setSelectQuestion}  />} />
@@ -55,6 +64,8 @@ let [SelectQuestion, setSelectQuestion] = useState("Select a Question")
           <Route path="/Practice/Quiz/React" element={<ReactPage />} />
 
           <Route path="/Editer" element={<Editer SelectQuestion = {SelectQuestion}  />} />
+
+          <Route path="/Buy" element={<Buy/>}/>
 
         </Routes>
 

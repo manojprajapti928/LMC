@@ -7,7 +7,7 @@ const placeholderImageURL3 = 'https://static-00.iconduck.com/assets.00/react-ico
 
 const Quiz = () => {
   return (
-    <div>
+    <div className='BG'>
       <center>
         <h1>Quiz Page</h1>
       </center>
@@ -18,6 +18,7 @@ const Quiz = () => {
             <div className="quiz-card">
               <img className="quiz-card-image" src={placeholderImageURL1} alt="HTML-CSS" />
               <h3 className="quiz-card-title">HTML-CSS</h3>
+              <h3 className='practice-quiz'>Practice Quiz</h3>
             </div>
         </Link>
 
@@ -25,6 +26,7 @@ const Quiz = () => {
             <div className="quiz-card">
               <img className="quiz-card-image" src={placeholderImageURL2} alt="JavaScript" />
               <h3 className="quiz-card-title">JavaScript</h3>
+              <h3 className='practice-quiz'>Practice Quiz</h3>
             </div>
         </Link>
 
@@ -33,6 +35,7 @@ const Quiz = () => {
             <div className="quiz-card">
               <img className="quiz-card-image" src={placeholderImageURL3} alt="React" />
               <h3 className="quiz-card-title">React</h3>
+              <h3 className='practice-quiz'>Practice Quiz</h3>
             </div>
         </Link>
 
