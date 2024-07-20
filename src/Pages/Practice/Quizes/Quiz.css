@@ -54,3 +54,44 @@
     font-size: 1.2rem;
 
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .quiz-card-container {
+      gap: 15px;
+    }
+  
+    .quiz-card {
+      width: 250px;
+    }
+  
+    .quiz-card-title {
+      font-size: 1.1rem;
+    }
+  
+    .practice-quiz {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Media query for mobile phones (screen width up to 480px) */
+  @media only screen and (max-width: 480px) {
+    .quiz-card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .quiz-card {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .quiz-card-title {
+      font-size: 1rem;
+    }
+  
+    .practice-quiz {
+      font-size: 0.8rem;
+    }
+  }
