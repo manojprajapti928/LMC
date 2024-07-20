@@ -56,7 +56,7 @@
   }
 
 
-  @media only screen and (max-width: 768px) {
+   @media only screen and (max-width: 768px) {
     .quiz-card-container {
       gap: 15px;
     }
@@ -72,7 +72,7 @@
     .practice-quiz {
       font-size: 0.9rem;
     }
-  }
+  } 
   
   /* Media query for mobile phones (screen width up to 480px) */
   @media only screen and (max-width: 480px) {
@@ -83,7 +83,7 @@
     }
   
     .quiz-card {
-      width: 90%;
+      /* width: 90%; */
       max-width: 350px;
     }
   
