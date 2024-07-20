@@ -13,3 +13,27 @@
     border-radius: 15px;
 
 }
+
+
+
+@media only screen and (max-width: 480px) {
+    .main {
+      width: 95%;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .card .card-details h2 {
+      font-size: 1.2rem;
+    }
+  
+    .card .card-details p {
+      font-size: 0.8rem;
+    }
+  }

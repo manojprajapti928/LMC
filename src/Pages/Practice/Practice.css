@@ -41,3 +41,33 @@ a
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+    #PracticeNavBar {
+      width: 80%;
+    }
+  
+    #PracticeNavBar a {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Media query for mobile phones (screen width up to 480px) */
+  @media only screen and (max-width: 480px) {
+    #PracticeNavBar {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    #PracticeNavBar a {
+      font-size: 1rem;
+    }
+  
+    #PracticeNavBar ul {
+      padding: 10px;
+    }
+  
+    #PracticeNavBar li {
+      margin: 5px 0;
+    }
+  }
+

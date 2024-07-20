@@ -86,4 +86,53 @@ body, h1, p, div {
     color: #fff;
     padding: 10px 20px;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .card-details-page {
+      width: 80%;
+    }
+  
+    .details-info {
+      flex-direction: column;
+    }
+  
+    .details-info div {
+      margin-bottom: 10px;
+    }
+  
+    .back-btn {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  /* Media query for mobile phones (screen width up to 480px) */
+  @media only screen and (max-width: 480px) {
+    .card-details-page {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .details-category {
+      font-size: 1rem;
+    }
+  
+    .details-description {
+      font-size: 0.9rem;
+    }
+  
+    .details-info div {
+      font-size: 0.9rem;
+    }
+  
+    .back-btn {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .back-btn button {
+      width: 100%;
+    }
+  }
   
